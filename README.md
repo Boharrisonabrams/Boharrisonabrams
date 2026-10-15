@@ -19,11 +19,11 @@ Each case study has a section on what failed.
 
 | Project | What it is | Code |
 | --- | --- | --- |
-| [WikiRace](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/wikirace.md) | A Wikipedia racing game with a web app, an iOS app, and an API that checks every click. | [wikirace-public](https://github.com/Boharrisonabrams/wikirace-public) |
-| [Auction replay](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/auction-replay.md) | A replay of my fantasy football auction to test when bidding above value beats waiting. The model couldn't prove it ever does. | [auction-replay](https://github.com/Boharrisonabrams/auction-replay) |
+| [WikiRace](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/wikirace.md) | A Wikipedia racing game with a web app, an iOS app, and an API that checks every click. Play it at [wikirace.day](https://wikirace.day). | [wikirace-public](https://github.com/Boharrisonabrams/wikirace-public) |
+| [kommu founder dashboard](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/kommu-dashboard.md) | A scheduled agent pulls data from seven business tools into one snapshot, and the app treats what the agent writes as untrusted input. | Private |
 | [Weather-market bot rebuild](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/noaa-arb-v2.md) | A 48,000-line bot rebuilt in about 2,200 lines, with pass and kill gates written before the data. Pre-registered forward tests killed the strategy. | Private |
 | [Agent brokerage research](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/robinhood-agentic.md) | A Claude Code session on a broker's official MCP tools, with kill rules frozen before any results. All five of my strategy ideas died at their gates. | Private |
-| [kommu founder dashboard](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/kommu-dashboard.md) | A scheduled agent pulls data from seven business tools into one snapshot, and the app treats what the agent writes as untrusted input. | Private |
+| [Auction replay](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/auction-replay.md) | A replay of my fantasy football auction to test when bidding above value beats waiting. The model couldn't prove it ever does. | [auction-replay](https://github.com/Boharrisonabrams/auction-replay) |
 
 ## Now
 
@@ -31,5 +31,4 @@ Building kommu, plus the internal tools I use to run it, like the founder dashbo
 
 ## Contact
 
-Reach me on [LinkedIn](https://www.linkedin.com/in/TODO).
-<!-- TODO(Bo): replace TODO in the LinkedIn URL with your profile slug. -->
+Reach me on [LinkedIn](https://www.linkedin.com/in/bo-abrams).
