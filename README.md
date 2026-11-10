@@ -1,33 +1,28 @@
 # Bo Abrams
 
-I founded kommu, a home-swap marketplace, and I work across product and engineering. Coding agents write most of my code, and I keep the approvals.
+I founded kommu, a home-swap marketplace, and I work across product and engineering. Coding agents write most of my code. I write the rules they work inside, and I keep the approvals.
+
+[My portfolio site](https://boharrisonabrams.github.io/portfolio/) has five case studies. Each one has a section on what failed.
+
+## Start with these
+
+| Repo | What it is | Where to look |
+| --- | --- | --- |
+| [wikirace-public](https://github.com/Boharrisonabrams/wikirace-public) | A Wikipedia racing game with a web app, an iOS app, and an API that checks every click. | Play it at [wikirace.day](https://wikirace.day), then read the [WikiRace case study](https://boharrisonabrams.github.io/portfolio/case-studies/wikirace.html). |
+| [portfolio](https://github.com/Boharrisonabrams/portfolio) | Five case studies and one page on how I work with coding agents. | Read it on [the portfolio site](https://boharrisonabrams.github.io/portfolio/). |
+| [auction-replay](https://github.com/Boharrisonabrams/auction-replay) | My 14-team fantasy football auction, replayed in standard-library Python to test when paying above value beats waiting. The model couldn't prove it ever does. | The quickstart runs on synthetic data. Read the [auction replay case study](https://boharrisonabrams.github.io/portfolio/case-studies/auction-replay.html). |
+
+## Private work, written up
+
+The code for these stays private. I'll walk you through the source on request.
+
+- [kommu founder dashboard](https://boharrisonabrams.github.io/portfolio/case-studies/kommu-dashboard.html): a scheduled agent pulls data from seven business tools into one snapshot, and the app treats what the agent writes as untrusted input.
+- [Weather-market bot rebuild](https://boharrisonabrams.github.io/portfolio/case-studies/noaa-arb-v2.html): a 48,000-line bot rebuilt in about 2,200 lines, with pass and kill rules written before the data. The forward tests ended the strategy.
+- [Agent brokerage research](https://boharrisonabrams.github.io/portfolio/case-studies/robinhood-agentic.html): a Claude Code session on a broker's official MCP tools, with write access fenced to one account. All five of my strategy ideas died at their gates.
 
 ## How I build
 
-Agents work inside rules I write:
-
-- Each change goes through a plan, the work, a review, and a written lesson that the next session reads.
-- Risk limits are code constants, and I commit pass or kill rules before anyone sees results.
-- If a check can't confirm its inputs, the action stops. Sends, publishes, and pull request actions wait for me.
-- Agent output gets the same checks as outside data.
-
-[How I work with coding agents](https://github.com/Boharrisonabrams/portfolio/blob/main/methods/how-i-work-with-agents.md) gives one example of each practice and a section on what broke.
-
-## Featured work
-
-Each case study has a section on what failed.
-
-| Project | What it is | Code |
-| --- | --- | --- |
-| [WikiRace](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/wikirace.md) | A Wikipedia racing game with a web app, an iOS app, and an API that checks every click. Play it at [wikirace.day](https://wikirace.day). | [wikirace-public](https://github.com/Boharrisonabrams/wikirace-public) |
-| [kommu founder dashboard](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/kommu-dashboard.md) | A scheduled agent pulls data from seven business tools into one snapshot, and the app treats what the agent writes as untrusted input. | Private |
-| [Weather-market bot rebuild](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/noaa-arb-v2.md) | A 48,000-line bot rebuilt in about 2,200 lines, with pass and kill gates written before the data. Pre-registered forward tests killed the strategy. | Private |
-| [Agent brokerage research](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/robinhood-agentic.md) | A Claude Code session on a broker's official MCP tools, with kill rules frozen before any results. All five of my strategy ideas died at their gates. | Private |
-| [Auction replay](https://github.com/Boharrisonabrams/portfolio/blob/main/case-studies/auction-replay.md) | A replay of my fantasy football auction to test when bidding above value beats waiting. The model couldn't prove it ever does. | [auction-replay](https://github.com/Boharrisonabrams/auction-replay) |
-
-## Now
-
-Building kommu, plus the internal tools I use to run it, like the founder dashboard above.
+Risk limits are code constants an agent can't tune. I commit pass or kill rules before any results come in. Sends, publishes, and pull request actions wait for me. [How I work with coding agents](https://boharrisonabrams.github.io/portfolio/methods/how-i-work-with-agents.html) has one example of each practice and a section on what broke.
 
 ## Contact
 
